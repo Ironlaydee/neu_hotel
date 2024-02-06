@@ -12,4 +12,4 @@ The first goal is to work on the landing page, to ensure all the navbar buttons 
 
 Yet, at the end of this project, we have to be proud of what we built.
 
-Until then….
+Until then…..
