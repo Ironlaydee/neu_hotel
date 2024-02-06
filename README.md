@@ -1,4 +1,8 @@
 
+
+![sample image](https://github.com/Fort2020/neu_hotel/assets/114498685/a0aa257e-1102-4b5d-be9c-fab38d963ba5)
+
+
 TITLE: 
 Hotel Web Based Application @ 2024
 
