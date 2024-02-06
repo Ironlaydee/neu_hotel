@@ -1,6 +1,7 @@
 
 
-![sample image](https://github.com/Fort2020/neu_hotel/assets/114498685/a0aa257e-1102-4b5d-be9c-fab38d963ba5)
+![sample image](https://github.com/Fort2020/neu_hotel/assets/114498685/8230b311-e215-436e-aeca-fb9615e477f1)
+
 
 
 TITLE: 
