@@ -13,12 +13,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1566,8 +1561,12 @@ h6 .small, .h6 small,
   font-size: 75%;
 }
 
-h1, .h1 {
-  font-size: 36px;
+/* Styling "LIVING STONE HOTEL" */
+.hotel-logo {
+  color: #fff; /* Changing text color */
+  font-size: 30px; /* Adjusting font size */
+  font-weight: bold; /* Making text bold */
+  margin-top: 10px;
 }
 
 h2, .h2 {
