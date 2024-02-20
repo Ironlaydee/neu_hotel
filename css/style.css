@@ -1525,7 +1525,7 @@ h6 .small,
   color: #777777;
 }
 
-h1, .h1, 
+h1, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: 20px;
@@ -1566,7 +1566,6 @@ h6 .small, .h6 small,
   color: #fff; /* Changing text color */
   font-size: 30px; /* Adjusting font size */
   font-weight: bold; /* Making text bold */
-  margin-top: 10px;
 }
 
 h2, .h2 {
