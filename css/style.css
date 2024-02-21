@@ -1562,10 +1562,17 @@ h6 .small, .h6 small,
 }
 
 /* Styling "LIVING STONE HOTEL" */
-.hotel-logo {
+img {
+  float: left;
+  margin-top: 2%;
+  margin-left: 20px;
+}
+
+h3.hotel-logo {
   color: #fff; /* Changing text color */
   font-size: 30px; /* Adjusting font size */
   font-weight: bold; /* Making text bold */
+  margin-top: 5%;
 }
 
 h2, .h2 {
