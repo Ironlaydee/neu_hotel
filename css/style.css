@@ -8250,14 +8250,14 @@ div.cs-select span {
   width: 100%;
 }
 
-.feature-full-1col {
+.feature-full-1col { /* 2-Bedroom Suite - Sitting Image */
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   flex-flow: row wrap;
-  width: 100%;
+  width: 150%;
   margin-bottom: 30px;
 }
 .feature-full-1col .image, .feature-full-1col .desc {
@@ -8414,7 +8414,7 @@ div.cs-select span {
 #fh5co-services-section,
 #fh5co-contact-section,
 #footer {
-  padding: 7em 0;
+  padding: 2em 0;
 }
 
 #hotel-facilities {
@@ -8452,13 +8452,13 @@ div.cs-select span {
   transition: 0.3s;
 }
 #tabs .tabs-nav > a > .icon {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 #tabs .tabs-nav > a > .icon:before {
-  font-size: 40px;
+  font-size: 30px;
 }
 #tabs .tabs-nav > a > .icon, #tabs .tabs-nav > a > span {
   display: block;
@@ -8815,7 +8815,7 @@ input[type="text"] {
   margin: 0 0 30px 0;
 }
 #footer ul.link li {
-  font-size: 16px;
+  font-size: 14px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -8830,7 +8830,7 @@ input[type="text"] {
   background: #fff;
   padding: 5px 70px 5px 15px;
   border: none;
-  height: 45px;
+  height: 35px;
   line-height: 30px;
   width: 100%;
 }
@@ -8838,7 +8838,7 @@ input[type="text"] {
   background: #3c4146;
   border: none;
   color: #fff;
-  height: 45px;
+  height: 35px;
   padding: 5px 15px;
   position: absolute;
   right: 0;
@@ -8854,7 +8854,7 @@ input[type="text"] {
   list-style: none;
 }
 #footer .social-icons li a {
-  font-size: 30px;
+  font-size: 40px;
   color: #b3b3b3 !important;
 }
 #footer .social-icons li a:hover, #footer .social-icons li a:focus, #footer .social-icons li a:active {
@@ -8870,8 +8870,8 @@ input[type="text"] {
   background: #e6e6e6;
 }
 
-.section-title {
-  margin-bottom: 5em;
+.section-title { /* HOMEPAGE -LIVING STONE HOTEL FEATURES Start*/
+  margin-bottom: 2em;
   float: left;
   width: 100%;
   z-index: 99;
@@ -8886,19 +8886,7 @@ input[type="text"] {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 300;
-}
-
-.googleplus-color {
-  color: #dc4e41 !important;
-}
-
-.facebook-color {
-  color: #3b5998 !important;
-}
-
-.twitter-color {
-  color: #55acee !important;
-}
+}                 /* LIVING STONE HOTEL FEATURES End */
 
 .fh5co-table,
 .fh5co-table-cell,
