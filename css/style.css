@@ -112,6 +112,7 @@ sub {
 
 img {
   border: 0;
+  border-radius: 20px;
 }
 
 svg:not(:root) {
@@ -7375,10 +7376,11 @@ a:hover {
 
 p, ul, ol {
   margin-bottom: 1.5em;
-  font-size: 18px;
+  font-size: 16px;
   color: #848484;
   font-weight: 300;
   font-family: "Open Sans", Arial, serif;
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8243,7 +8245,7 @@ div.cs-select span {
 .fh5co-counters .fh5co-counter-label {
   color: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 2px;
   margin-bottom: 1em;
   display: block;
@@ -8261,8 +8263,9 @@ div.cs-select span {
   display: -webkit-flex;
   display: flex;
   flex-flow: row wrap;
-  width: 150%;
+  width: 100%;
   margin-bottom: 30px;
+  text-align: justify;
 }
 .feature-full-1col .image, .feature-full-1col .desc {
   float: left;
@@ -8275,9 +8278,9 @@ div.cs-select span {
     width: 100%;
   }
 }
-.feature-full-1col .image {
+.feature-full-1col .image { /* Price Label */
   position: relative;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   overflow: hidden;
@@ -8307,7 +8310,7 @@ div.cs-select span {
 }
 @media screen and (max-width: 768px) {
   .feature-full-1col .image {
-    height: 300px;
+    height: 80px;
   }
 }
 .feature-full-1col .desc {
@@ -8330,11 +8333,12 @@ div.cs-select span {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  text-align: justify;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 300px) {
   .feature-full-2col {
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
   }
 }
 .feature-full-2col .f-hotel {
@@ -8356,8 +8360,8 @@ div.cs-select span {
     margin-bottom: 30px;
   }
 }
-.feature-full-2col .f-hotel .descrip {
-  width: 180px;
+.feature-full-2col .f-hotel .descrip { /* Price Label 2 */
+  width: 100px;
   position: absolute;
   top: 0;
   right: -180px;
@@ -8367,7 +8371,7 @@ div.cs-select span {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-.feature-full-2col .f-hotel .descrip p {
+.feature-full-2col .f-hotel .descrip p { /* Naira Price Writeup */
   margin: 0;
   color: #fff;
 }
@@ -8380,7 +8384,7 @@ div.cs-select span {
   font-size: 12px;
 }
 .feature-full-2col .f-hotel .image {
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
   position: absolute;
@@ -8399,7 +8403,7 @@ div.cs-select span {
 }
 @media screen and (max-width: 480px) {
   .feature-full-2col .f-hotel .image, .feature-full-2col .f-hotel .desc {
-    width: 100%;
+    width: 50%;
   }
 }
 .feature-full-2col .f-hotel .desc {
