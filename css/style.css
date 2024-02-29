@@ -7904,6 +7904,7 @@ figure {
 }
 #fh5co-hero .btn.btn-primary {
   padding: 14px 30px !important;
+  margin-left: 20em;
 }
 #fh5co-hero .flexslider {
   border: none;
@@ -8000,6 +8001,7 @@ figure {
   letter-spacing: 5px;
   border-top: 2px solid rgba(255, 255, 255, 0.3);
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  margin-left: 300px;
 }
 .slider-text > .slider-text-inner p .btn {
   font-size: 22px !important;
@@ -8351,6 +8353,7 @@ div.cs-select span {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
   flex-flow: row wrap;
 }
 @media screen and (max-width: 992px) {
@@ -8361,10 +8364,10 @@ div.cs-select span {
   }
 }
 .feature-full-2col .f-hotel .descrip { /* Price Label 2 */
-  width: 100px;
+  width: 120px;
   position: absolute;
   top: 0;
-  right: -180px;
+  right: -120px;
   padding: 10px;
   background: #FF5722;
   -webkit-transition: 0.2s;
@@ -8384,11 +8387,12 @@ div.cs-select span {
   font-size: 12px;
 }
 .feature-full-2col .f-hotel .image {
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  position: absolute;
-  top: 0;
+  width: 200%; /* Added to move text container to the bottom of the image */
+  height: 20em; /* Added to move text container to the bottom of the image */
+  top: 0; /* postition: absolute was removed */
   right: 0;
   bottom: 0;
 }
@@ -8399,15 +8403,15 @@ div.cs-select span {
   }
 }
 .feature-full-2col .f-hotel .image, .feature-full-2col .f-hotel .desc {
-  width: 50%;
+  width: 98%;
 }
 @media screen and (max-width: 480px) {
   .feature-full-2col .f-hotel .image, .feature-full-2col .f-hotel .desc {
-    width: 50%;
+    width: 98%;
   }
 }
 .feature-full-2col .f-hotel .desc {
-  padding: 30px;
+  padding: 10px;
   background: #fff;
 }
 .feature-full-2col .f-hotel:hover .image .descrip, .feature-full-2col .f-hotel:focus .image .descrip {
