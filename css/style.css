@@ -1564,17 +1564,19 @@ h6 .small, .h6 small,
 
 /* Styling "LIVING STONE HOTEL" */
 img {
+  width: 50px;
   float: left;
   margin-top: 2%;
   margin-left: 20px;
   margin-right: 10px;
 }
 
-h3.hotel-logo {
+h3.hotel-name {
+  display: inline-block;
   color: #fff; /* Changing text color */
   font-size: 20px; /* Adjusting font size */
   font-weight: bold; /* Making text bold */
-  margin-top: 5.5%;
+  margin-top: 3.5%;
 }
 
 img .src {
@@ -7608,7 +7610,12 @@ figure {
   position: absolute;
   top: 0;
   left: 0;
+<<<<<<< HEAD
   width: 80%;
+=======
+  width: 100%;
+  overflow: hidden;
+>>>>>>> a547913de11c9809f7a2939c8fe314552ef760f6
 }
 
 .nav-header {
@@ -8412,7 +8419,7 @@ div.cs-select span {
   }
 }
 .feature-full-2col .f-hotel .desc {
-  padding: 10px;
+  padding: 50px;
   background: #fff;
 }
 .feature-full-2col .f-hotel:hover .image .descrip, .feature-full-2col .f-hotel:focus .image .descrip {
