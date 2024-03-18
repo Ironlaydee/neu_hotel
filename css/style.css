@@ -7610,12 +7610,8 @@ figure {
   position: absolute;
   top: 0;
   left: 0;
-<<<<<<< HEAD
-  width: 80%;
-=======
   width: 100%;
   overflow: hidden;
->>>>>>> a547913de11c9809f7a2939c8fe314552ef760f6
 }
 
 .nav-header {
